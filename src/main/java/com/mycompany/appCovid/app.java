@@ -28,19 +28,7 @@ public class app {
     
     
     public static void main(String[] args) {
-     //ClienteRestaurante cliente= new ClienteRestaurante();
-     /*
-   Timer timer=new Timer();
-   TimerTask tarea=new TimerTask()
-   {
-       @Override
-       public void run() {
-           System.out.println("retraso: ");
-           //throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-       }
-       
-   };
-   timer.schedule(tarea, 0, 360000);*/
+    
         Scanner sc = new Scanner(System.in);
          Calendar calendario = Calendar.getInstance();
          int hora=calendario.get(Calendar.HOUR_OF_DAY);//captura la hora en que se inicializa el programa
